@@ -13,6 +13,7 @@ def find_divisors(number):
 
     result = sorted(list(divisors))
     result.remove(number)
+    result.reverse()
     return result
 
 with open("D:\Project\Advent_of_Code_2025\day2\input_.txt") as file:
